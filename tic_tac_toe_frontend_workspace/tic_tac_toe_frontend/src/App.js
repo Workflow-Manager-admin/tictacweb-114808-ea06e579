@@ -327,7 +327,7 @@ function App() {
           aria-label={`Switch to ${theme === 'light' ? 'dark' : 'light'} mode`}>
           {theme === 'light' ? '🌙 Dark' : '☀️ Light'}
         </button>
-        <h1 className="ttt-title" style={{ marginBottom: '0.2em' }}>Tic Tac Toe</h1>
+        <h1 className="ttt-title" style={{ marginBottom: '0.2em', color: '#282c34', fontStyle: 'italic', textDecoration: 'underline' }}>Tic Tac Toe</h1>
         <div className="ttt-container">
           <Board
             squares={squares}
